@@ -231,13 +231,13 @@
     <div class="row">
         <div class="col-lg-8">
             <div class="boxed-grey">
-                <form id="contact-form">
+                <form action="https://formspree.io/alexcda@gmail.com" method="post">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Nome</label>
-                            <input type="text" class="form-control" id="name" placeholder="Inserir nome" required="required" />
+                            <input type="text" class="form-control" name="nome" placeholder="Inserir nome" required="required" />
                         </div>
                         <div class="form-group">
                             <label for="email">
@@ -245,12 +245,12 @@
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Inserir endereço de E-mail" required="required" /></div>
+                                <input type="email" class="form-control" name="e-mail" placeholder="Inserir endereço de E-mail" required="required" /></div>
                         </div>
                         <div class="form-group">
                             <label for="subject">
                                 Assunto</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
+                            <select name="assunto" class="form-control" required="required">
                                 <option value="na" selected="">Escolha um assunto:</option>
                                 <option value="service">Marcar uma consulta</option>
                                 <option value="suggestions">Cirurgia</option>
@@ -263,13 +263,12 @@
                         <div class="form-group">
                             <label for="name">
                                 Menssagem</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                            <textarea name="menssagem" class="form-control" rows="9" cols="25" required="required"
                                 placeholder="Menssagem"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                            Enviar Menssagem</button>
+                             <input type="submit" value="Send">
                     </div>
                 </div>
                 </form>
