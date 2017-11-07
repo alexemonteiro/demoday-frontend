@@ -3747,6 +3747,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   height: 20px;
   padding: 15px 15px;
   font-size: 18px;
+  color: transparent;
   line-height: 20px;
 }
 .navbar-brand:hover,
