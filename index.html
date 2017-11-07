@@ -232,12 +232,22 @@
         <div class="col-lg-8">
             <div class="boxed-grey">
                 <form action="https://formspree.io/alexcda@gmail.com" method="post">
+                <input type="hidden" name="_next" value="https://alexemonteiro.github.io/demoday/" />
+                <input type="hidden" name="_language" value="pt" />
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
                                 Nome</label>
                             <input type="text" class="form-control" name="nome" placeholder="Inserir nome" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="tel">
+                                Telefone</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-phone-alt"></span>
+                                </span>
+                                <input type="tel" class="form-control" name="telefone" placeholder="Inserir número de telefone" /></div>
                         </div>
                         <div class="form-group">
                             <label for="email">
@@ -247,19 +257,20 @@
                                 </span>
                                 <input type="email" class="form-control" name="e-mail" placeholder="Inserir endereço de E-mail" required="required" /></div>
                         </div>
-                        <div class="form-group">
-                            <label for="subject">
-                                Assunto</label>
-                            <select name="assunto" class="form-control" required="required">
-                                <option value="Sem Assunto" selected="">Escolha um assunto:</option>
-                                <option value="Marcar uma consulta">Marcar uma consulta</option>
-                                <option value="Cirurgia">Cirurgia</option>
-                                <option value="Dúvida">Dúvida</option>
-                                <option value="Outros">Outros</option>
-                            </select>
-                        </div>
+
                     </div>
                     <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="subject">
+                              Assunto</label>
+                          <select name="assunto" class="form-control" required="required">
+                              <option value="Sem Assunto" selected="">Escolha um assunto:</option>
+                              <option value="Marcar uma consulta">Marcar uma consulta</option>
+                              <option value="Cirurgia">Cirurgia</option>
+                              <option value="Dúvida">Dúvida</option>
+                              <option value="Outros">Outros</option>
+                          </select>
+                      </div>
                         <div class="form-group">
                             <label for="name">
                                 Menssagem</label>
@@ -268,7 +279,7 @@
                         </div>
                     </div>
                     <div class="col-md-12">
-                             <input type="submit" value="Send">
+                      <input type="submit" value="Enviar">
                     </div>
                 </div>
                 </form>
