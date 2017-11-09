@@ -255,8 +255,8 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 55px;
-    padding-bottom: 55px;
+    padding-top: 80px;
+    padding-bottom: 0px;
 	  display:block;
     position:relative;
     align-items: center;
