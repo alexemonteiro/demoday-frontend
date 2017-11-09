@@ -7,7 +7,7 @@ body {
     height: 100%;
     font-family: 'Lato',sans-serif;
 	font-weight: 300;
-    color: #666;
+    color: #000000;
     background-color: #fff;
 }
 
@@ -39,7 +39,7 @@ p.lead {
 }
 
 a {
-    color: #28c3ab;
+    color: #000000;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -72,7 +72,7 @@ a:focus {
 
 .navbar-brand h1{
 	color: #000;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 40px;
 }
 
@@ -255,8 +255,8 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 55px;
+    padding-bottom: 55px;
 	  display:block;
     position:relative;
     align-items: center;
@@ -265,7 +265,7 @@ hr {
 
 
 .section-heading h2 {
-	font-size: 40px;
+	font-size: 28px;
 }
 .section-heading i {
 	margin-bottom: 20px;
@@ -284,7 +284,7 @@ hr {
 
 
 .bg-dark {
-	background: #575757;
+	background: #000000;
 }
 
 /* --- section color var --- */
@@ -348,6 +348,7 @@ hr {
 .intro .slogan h3 {
 	color: #ffffff;
   text-align: left;
+  font-size: 18px;
   padding-left: 15px;
 	text-shadow: -2px 2px 2px #000;
 }
@@ -409,18 +410,7 @@ hr {
 	margin:0;
 	padding:0;
 }
-.team-social .social-facebook a{background: #3873ae;}
-.team-social .social-twitter a{background: #62c6f8;}
-.team-social .social-dribble a{background: #d74980;}
-.team-social .social-deviantart a{background: #8da356;}
-.team-social .social-google a{background: #000;}
-.team-social .social-vimeo a{background: #51a6d3;}
-.team-social .social-facebook a:hover{background: #4893ce;}
-.team-social .social-twitter a:hover{background: #82e6ff;}
-.team-social .social-dribble a:hover{background: #f769a0;}
-.team-social .social-deviantart a:hover{background: #adc376;}
-.team-social .social-google a:hover{background: #333;}
-.team-social .social-vimeo a:hover{background: #71c6f3;}
+
 
 
 /* ===========================
